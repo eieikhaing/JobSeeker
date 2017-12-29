@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Filter Jobs"
-        android:background="@drawable/border" />
+        android:background="@drawable/border2" />
     
 </LinearLayout>
     <LinearLayout
