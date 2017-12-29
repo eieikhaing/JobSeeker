@@ -17,9 +17,9 @@
     <Button
         android:id="@+id/btnFilter"
         android:layout_width="wrap_content"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:text="Filter Jobs"
-        android:background="@drawable/border2" />
+        android:background="@drawable/border" />
     
     
 </LinearLayout>
