@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" 
+    android:background="@drawable/border2">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:layout_marginBottom="10dp">
+    <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtCompanyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2196f3" />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/txtCreatedAt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    </LinearLayout>
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2196f3"/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_margin="10dp"
+        >
+        <ImageButton android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/point"/>
+        <TextView
+            android:id="@+id/txtCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/txtType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+         <TextView
+            android:id="@+id/txtSalary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        
+    </LinearLayout>
+      
+       <TextView 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Description"
+          android:textSize="20sp"
+          android:textStyle="bold"/>
+      <TextView 
+          android:id="@+id/txtdes"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="15dp"/>
+      <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2196f3"/>
+      
+      <TextView 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Job Requirements"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          />
+      <TextView 
+          android:id="@+id/txtRequirement"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="15dp"/>
+      <TextView 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="How to Apply"
+          android:textSize="20sp"
+          android:textStyle="bold"/>
+      <TextView 
+          android:id="@+id/txtHowto"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"/>
+         
+         </LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="JobSeeker"
+        android:textColor="#2196f3"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtJobtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/border2"
+        android:hint="View by Job Title" />
+
+    <Spinner
+        android:id="@+id/spnLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border2"
+        android:layout_margin="5dp"
+        
+         />
+    <Spinner
+        android:id="@+id/spnCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border2"
+        android:layout_margin="5dp"
+         />
+   <Button 
+        android:id="@+id/btnfindjob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Jobs"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border"
+      />
+
+</LinearLayout>
